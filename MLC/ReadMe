@@ -1,8 +1,26 @@
 Spotify Track Popularity Predictor
 
+The goal of this project was to predict the Track Popularity based on Audio Features defined by Spotify Web API. 
+I used Spotify Web API to build the dataset with track names, audio features and track popularity. After cleaning the data and performing EDA, 
+the column “track_pop” is converted from numerical to categorical target. I built multiple classification models using Logistic Regression and 
+Decision Tree based Ensemble algorithms. After comparing metrics for each model, I finalized on a Random Forest Classifier with Hyperparameter tuning. 
+
+
+MOTIVATION
+Spotify is a Swedish audio streaming company that has taken over globally, with 33 million monthly active users, including 188 million paying subscribers, 
+as of June 2022. The company offers a developer-friendly Web API with easy access to streaming data metrics. This project is focused on the 
+Audio Features APIs available for getting audio metrics such as Danceability, Energy, Speechiness etc for every track. 
+
+The popularity of a track has a range between 0 and 100, with 100 being the most popular. The popularity is calculated by algorithm and is based, 
+in the most part, on the total number of plays the track has had and how recent those plays are. A classification model to classify a track as 
+Popular or Not based on audio features would help Spotify as well as record companies analyze whether a track has the potential to be popular before 
+its launch. 
+
+
 DATA
 Spotify Audio Features dataset: https://www.kaggle.com/datasets/rodolfofigueroa/spotify-12m-songs  
-The first dataset is in .csv format and will be downloaded and loaded into a SQL database The dataset includes 1.2M+ songs along with respective audio features such as tempo, energy etc for each.
+The first dataset is in .csv format and will be downloaded and loaded into a SQL database The dataset includes 1.2M+ songs along with 
+respective audio features such as tempo, energy etc for each.
 
 Spotify Web API: https://developer.spotify.com/documentation/web-api/reference/#/operations/get-track
 Spotify’s Web API will be used to fetch the genre label for each track in the first dataset to train and validate the classification mode

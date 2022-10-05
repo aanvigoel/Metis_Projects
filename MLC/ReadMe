@@ -1,1 +1,9 @@
 Spotify Track Popularity Predictor
+
+DATA
+Spotify Audio Features dataset: https://www.kaggle.com/datasets/rodolfofigueroa/spotify-12m-songs  
+The first dataset is in .csv format and will be downloaded and loaded into a SQL database The dataset includes 1.2M+ songs along with respective audio features such as tempo, energy etc for each.
+
+Spotify Web API: https://developer.spotify.com/documentation/web-api/reference/#/operations/get-track
+Spotify’s Web API will be used to fetch the genre label for each track in the first dataset to train and validate the classification mode
+

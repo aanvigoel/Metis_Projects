@@ -1,1 +1,4 @@
-Linear Regression and Web Scrapping
+California Wildfire Predictor
+
+ABSTRACT
+The goal of this project was to build a Linear Regression model to predict the size of wildfire for occurrences in the state of California based on weather conditions, in order to facilitate wildfire containment by the USDA Forest Services and local fire departments. I worked with historic data available from USDA Forest Services to extract past fire occurrence reports and scraped the weather data for each occurrence location and date combination. Using Feature Engineering, Linear Regression and Regularization techniques, I improved the regression models by reducing the R2 score. 

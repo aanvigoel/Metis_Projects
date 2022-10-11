@@ -1,1 +1,7 @@
-Exploratory Data Analysis
+CitiBike: Case for Last-Mile Connectivity in the NYC MTA System 
+
+ABSTRACT	
+The goal of this project was to analyze the viability of CitiBike as a solution to last-mile connectivity problem in the MTA system. I worked with data from the MTA website to perform exploratory data analysis and obtain insights into ridership patterns across different stations. I added data available from CitiBike to evaluate the current state of it’s network and provide recommendations for improvement  based on the bike rack proximity to MTA stations. 
+
+Skills: Exploratory Data Analysis
+

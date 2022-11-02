@@ -1,1 +1,9 @@
-When trying to make weekend plans or decide which restaurant to eat at, we have all experienced the nerve-wracking analysis paralysis and decision fatigue that comes with the myriad of options available and the incessant need to maximize our choices. Using the powers of NLP and Machine Learning, I aim to build a Recommender System for restaurants in San Francisco based on features such as cuisine, ratings and customer reviews.
+ABSTRACT
+This project aims to build a Content-Based Recommender System for recommending restaurants in the San Francisco Bay Area. Place data from Google Places API is queried to build a dataset with features such as restaurant names, ratings price-levels and reviews. The user reviews are pre-processed using NLP techniques and converted into feature vectors. The reviews are further used to extract Topics based on common themes using Latent Dirichlet Allocation Model. Finally, cosine similarity is used as the evaluation metric for obtaining mathematical similarity between places and to provide top 5 recommendations.  
+DESIGN
+San Francisco Bay Area has more than 10k restaurant options, with over 4000 restaurants just within the city of San Francisco. With so many options available, deciding which restaurant to eat at or order from can be a nerve-wracking and tiring experience causing analysis paralysis and decision fatigue. This project uses easily-accessible Google Maps data and the power of NLP to build a recommender system that can provide personalized recommendations for restaurants based on Reviews and other factors such as price level and ratings. 
+DATA
+
+Webscraping Google Maps using Places API: https://developers.google.com/maps/documentation/places/web-service
+
+Features are extracted from the JSON response, providing 20 Places per response. Using the Place ID, corresponding reviews are queried which outputs 5 reviews/place.

@@ -3,8 +3,8 @@ This project aims to build a Content-Based Recommender System for recommending r
 
 DESIGN
 San Francisco Bay Area has more than 10k restaurant options, with over 4000 restaurants just within the city of San Francisco. With so many options available, deciding which restaurant to eat at or order from can be a nerve-wracking and tiring experience causing analysis paralysis and decision fatigue. This project uses easily-accessible Google Maps data and the power of NLP to build a recommender system that can provide personalized recommendations for restaurants based on Reviews and other factors such as price level and ratings. 
-DATA
 
+DATA
 Webscraping Google Maps using Places API: https://developers.google.com/maps/documentation/places/web-service
 
 Features are extracted from the JSON response, providing 20 Places per response. Using the Place ID, corresponding reviews are queried which outputs 5 reviews/place.
